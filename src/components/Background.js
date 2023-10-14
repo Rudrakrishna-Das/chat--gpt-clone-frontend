@@ -25,7 +25,7 @@ const Background = () => {
     };
     try {
       const responce = await fetch(
-        "http://localhost:8000/completions",
+        "https://chat-gpt-back.onrender.com/completions",
         options
       );
       const data = await responce.json();
